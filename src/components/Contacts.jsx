@@ -18,7 +18,7 @@ const Contacts = () => {
           initial={{ opacity: 0, x: -100 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
-          className="my-4"
+          className="my-4 font-normal"
         >
           {CONTACT.address}
         </motion.p>
@@ -26,11 +26,11 @@ const Contacts = () => {
           initial={{ opacity: 0, x: 100 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
-          className="my-4"
+          className="my-4 font-normal"
         >
           {CONTACT.phoneNo}
         </motion.p>
-        <a href="#" className="border-b">
+        <a href="#" className="border-b font-semibold">
           {CONTACT.email}
         </a>
       </div>
